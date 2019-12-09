@@ -15,7 +15,7 @@ https://ru.wikipedia.org/wiki/Fizz_buzz
 count = 1
 elements_to_print = int(input('How many elements to print?'))
 
-while count <= elements_to_show:
+while count <= elements_to_print:
     if count % 3 == count % 5 == 0:
         print('Fizz Buzz')
     elif count % 3 == 0:
