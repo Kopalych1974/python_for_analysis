@@ -10,21 +10,23 @@ https://ru.wikipedia.org/wiki/Fizz_buzz
 
 Напишите код, выводящий на экран первые n элементов этой игры (естественно, корректные).
 '''
+number = int(input('Введите число: '))
+string = []
 
-
-count = 1
-elements_to_print = int(input('How many elements to print?'))
-
-while count <= elements_to_print:
-    if count % 3 == count % 5 == 0:
-        print('Fizz Buzz')
-    elif count % 3 == 0:
-        print('Fizz')
-    elif count % 5 ==0:
-        print('Buzz')
+# Цикл до введенного числа
+for i in range(1,number+1):
+#     Если число делится на 3 и 5 без остатка
+    if i % 3 == 0 and i % 5 == 0:
+#         Добавить элемент в лист
+        string.append('Fizz Buzz')
+    elif i % 3 == 0:
+        string.append('Fizz')
+    elif i % 5 == 0:
+        string.append('Buzz')
     else:
-        print(count)
-    count += 1
+        string.append(str(i))
+        
+print(str(string).strip('[]'))
 
 '''
 Задание 2
