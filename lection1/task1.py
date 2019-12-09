@@ -26,6 +26,6 @@ b = len(short_phrase)
 #print(a)
 #print(b)
 if a > b:
-    print("long_phrase > short_phrase is TRUE")
+    print("TRUE")
 else:
-    print("long_phrase < short_phrase")
+    print("FALSE")
