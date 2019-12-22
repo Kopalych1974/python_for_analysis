@@ -1,0 +1,43 @@
+[
+    {
+        "type": "passport",
+        "number": "2207 876234",
+        "name": "Василий Гупкин"
+    },
+    {
+        "type": "invoice",
+        "number": "11-2",
+        "name": "Геннадий Покемонов"
+    },
+    {
+        "type": "insurance",
+        "number": "10006",
+        "name": "Аристарх Павлов"
+    },
+    {
+        "type": "passport",
+        "number": "1241 999120",
+        "name": "Евлампий Насосов"
+    },
+    {
+        "type": "passport",
+        "number": "3299 675324",
+        "name": "Homer Simpson"
+        
+    },
+    {
+        "type": "insurance",
+        "number": "30331",
+        "name": "Marge Simpson"
+    },
+    {
+        "type": "insurance",
+        "number": "29056",
+        "name": "Bart Simpson"
+    },
+    {
+        "type": "invoice",
+        "number": "70-4",
+        "name": "Lisa Simpson"
+    }
+]
